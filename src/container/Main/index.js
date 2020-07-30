@@ -6,7 +6,11 @@ import { Container, DivMain } from './styled'
 
     return (
     <Container>
-        <DivMain>DIV MAE</DivMain>
+        <DivMain>
+            <div>
+                <p>Oi, eu sou a Gabriela</p>
+            </div>
+        </DivMain>
         MAIN
        
     </Container>

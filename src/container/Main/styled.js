@@ -10,10 +10,19 @@ grid-template-rows: 1fr 1fr;
 background-color:red;
 
 `
-
 export const DivMain = styled.div `
+font-family: 'Montserrat', sans-serif;
+font-weight:bold;
 width:90%;
 background-color: purple;
+ p{
+     padding-left:30px;
+     color: #FFF;
+     font-weight: lighter;
+     font-size:50px;
+     -webkit-font-smoothing: antialiased;
+     letter-spacing:0.29px;
+ }
 
 
 `
