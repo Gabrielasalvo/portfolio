@@ -3,4 +3,4 @@
 
 ### primeira página
 
-<img src="https://files.slack.com/files-pri/TLAVDH7C2-F018T60B724/image.png"/>
+<img src="https://i.imgur.com/OxcaSRD.png"/>
