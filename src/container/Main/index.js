@@ -1,21 +1,30 @@
-import React from 'react'
-import { Container, DivMain } from './styled'
+import React from "react";
+import { Container, DivMain, Name, SocialIcons } from "./styled";
+import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 
-
- function Main (){
-
-    return (
+function Main() {
+  return (
     <Container>
-        <DivMain>
-            <div>
-                <p>Oi, eu sou a Gabriela</p>
-            </div>
-        </DivMain>
-        MAIN
-       
-    </Container>
-)
+      <DivMain>
+        <div>
+          <Name>Oi, eu sou a Gabriela</Name>
+          <p>Desenvolvedora FullStack</p>
 
+          <p>
+            Apaixonada por desenvolvimento e jogadora de videogame nas horas
+            vagas
+          </p>
+        </div>
+      </DivMain>
+
+      <SocialIcons>
+        <FaGithub />
+        <FaLinkedin />
+        <FaTelegram />
+      </SocialIcons>
+      
+    </Container>
+  );
 }
 
-export default Main
+export default Main;

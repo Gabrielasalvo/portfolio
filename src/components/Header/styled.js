@@ -13,37 +13,39 @@ export const NavStyle = styled.div`
   background-color: ${theme.twilight};
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
-  
- 
+  padding: 10px;
+  @media (max-width: 400px) {
+    justify-content: center;
+    font-size: 18px;
+  }
 `;
 
-export const Name = styled.a `
-
-    color: #ffff;
-    font-family:Montserrat-Bold;
-    letter-spacing:-1px;
-    font-size:20px;
-    font-weight:bold;
-    -webkit-font-smoothing: antialiased;
-    
-`
+export const Name = styled.a`
+  color: #ffff;
+  font-family: Montserrat-Bold;
+  letter-spacing: -1px;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  @media (max-width: 400px) {
+    display: none;
+  }
+`;
 
 export const UlStyle = styled.ul`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+ 
+ }
 
   li {
     padding: 5px;
-   
+    
     a {
-        color: #ffff;
-         -webkit-font-smoothing: antialiased;
+      color: #ffff;
+      -webkit-font-smoothing: antialiased;
     }
-
   }
-  
 `;
 export const SpacingDiv = styled.div`
   height: inherit;
