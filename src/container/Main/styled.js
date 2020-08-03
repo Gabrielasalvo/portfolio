@@ -92,7 +92,8 @@ h4{
 }
 p{
   font-size:18px;
-  font-weight:bold;
+  font-family:"Montserrat-Regular"
+ 
 }
 button {
   border-radius: 8px;
@@ -102,7 +103,6 @@ button {
     background-color: #012940;
     border: none;
     width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     outline: none;
     margin: 15px 0px;
@@ -113,10 +113,9 @@ button {
 `
 
 export const SocialIcons = styled.div`
-margin-top:5vh;
-
+  margin-top:5vh;
   display:flex;
-  width: 10vw;
+  width: 15vw;
   -webkit-justify-content: space-between;
  
 `;
