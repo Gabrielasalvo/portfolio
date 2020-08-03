@@ -36,6 +36,7 @@ export const theme = {
     darkblue: "#012940",
     lightgreen:"#c5db94",
     lightyellow:"#fff38b",
-    oldrose: "#feb681"
+    oldrose: "#feb681",
+    white: "fff"
 
 }
