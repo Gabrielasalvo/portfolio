@@ -6,19 +6,18 @@ display:flex;
 justify-content:space-between;
 background-color: ${theme.lightgreen};
 padding: 3vw;
+color:white;
 `
 
 export const Wrapper = styled.div `
 
 display:grid;
 column-gap:20vw;
-/* justify-self:center; */
 grid-template-columns: 1fr 1fr;
-/* grid-template-rows:1fr; */
 grid-gap:5vh;
 width: 100vw;
 text-align:center;
-color: white;
+
 
 `
 

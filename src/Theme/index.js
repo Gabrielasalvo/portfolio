@@ -19,6 +19,14 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration:none;
+    :active {
+    
+     text-decoration:none;
+     
+    }
+    color:inherit;
+
+    
   }
   ul{
     list-style-type:none;
