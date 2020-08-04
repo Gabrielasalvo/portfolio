@@ -18,6 +18,7 @@ import {
 } from "./styled";
 import { FaGithub, FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import photo from "../../assets/img/photo.jpeg";
+import portfolio from "../../assets/img/portfolio.jpeg"
 
 function Main() {
   const knowledges = [

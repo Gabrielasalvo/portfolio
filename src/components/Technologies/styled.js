@@ -4,7 +4,7 @@ import {theme} from '../../Theme/index'
 export const Container = styled.div`
 display:flex;
 justify-content:space-between;
-background-color: ${theme.lightgreen};
+background-color: ${theme.dustyteal};
 padding: 3vw;
 color:white;
 `
@@ -17,6 +17,7 @@ grid-template-columns: 1fr 1fr;
 grid-gap:5vh;
 width: 100vw;
 text-align:center;
+margin-bottom:5vh;
 
 
 `

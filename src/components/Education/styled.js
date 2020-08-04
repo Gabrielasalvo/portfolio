@@ -4,11 +4,14 @@ import { theme } from '../../Theme/'
 
 export const Container = styled.div`
 background-color: ${theme.darkgreen};
+
 color: #FFF;
     h1 {
         text-align:center;
         font-weight:lighter;
         font-size:2.5em;
+        margin-top: 0;
+        padding-top: 8vh;
     }
 
 `

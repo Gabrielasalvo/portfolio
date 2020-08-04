@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { theme } from "../../Theme";
 import photo from "../../assets/img/photo.jpeg";
+import portfolio from "../../assets/img/portfolio.jpeg"
+import portfolio01 from "../../assets/img/portfolio01.jpeg"
 
 
 export const Container = styled.div`
@@ -11,9 +13,10 @@ export const Container = styled.div`
 export const WrapperMain = styled.div`
   /* display: grid;
   grid-template-columns: 2fr 1fr; */
-  background-image:url(${photo});
-  background-position-x:right;
-  background-repeat:no-repeat;
+  background-image:url(${portfolio01});
+  background-position-x:left;
+  /* background-position:cover; */
+ 
   
   h1{
     margin-top:100px;
@@ -48,7 +51,7 @@ export const StyledPhoto = styled.img`
   z-index: -1;
 `;
 export const PhotoFilter = styled.div`
-  background-color: ${theme.dusty};
+  background-color: ${theme.dustyteal};
   display: flex;
 `;
 

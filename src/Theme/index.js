@@ -37,6 +37,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const theme = {
     dusty: "rgba(77, 138, 124, 0.46)",
+    dustyteal:"#4d8a7c",
     twilight: "rgba(10, 73, 88, 0.67)",
     greentea: "#4d8a7c",
     darkgreen: "#0a4958",
