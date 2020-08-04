@@ -25,6 +25,18 @@ p {
     width: 35vw;
     text-align: justify;
 }
+@media (max-width: 800px ) {
+display:flex;
+flex-direction:column;
+word-break: break-all;
+margin:0 auto;
+p{
+    width:70vw;
+    font-size:1.3em;
+}
+
+}
+
 
   
 `
