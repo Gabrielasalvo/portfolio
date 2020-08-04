@@ -5,7 +5,9 @@ export const Container = styled.div`
 display:flex;
 justify-content:space-between;
 background-color: ${theme.dustyteal};
+opacity: 0.9;
 padding: 3vw;
+
 color:white;
 `
 
@@ -18,6 +20,14 @@ grid-gap:5vh;
 width: 100vw;
 text-align:center;
 margin-bottom:5vh;
+
+@media (max-width: 800px ) {
+font-size:1.4em;
+display:flex;
+flex-direction:column;
+word-break: break-all;
+
+}
 
 
 `
@@ -32,12 +42,29 @@ font-size:2em;
 `
 
 export const Description = styled.div `
-width:30vw;
+max-width:30vw;
 margin: 0 auto;
+@media(max-width: 850px) {
+    max-width:70vw;
+
+}
 
 p{
     text-align:justify;
     font-size: 1em;
+
+}
+
+@media (max-width: 700px ) {
+display:flex;
+flex-direction:column;
+p{
+    text-align:justify;
+    font-size: 1.2em;
+    width:100%;
+    word-break: break-all;
+
+}
 
 }
 

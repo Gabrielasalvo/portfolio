@@ -14,7 +14,7 @@ import {
   Description,
   Technologies,
   TextDescription,
-  PdfButton
+  Button
 } from "./styled";
 import { FaGithub, FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import photo from "../../assets/img/photo.jpeg";
@@ -56,7 +56,7 @@ function Main() {
               <a href="https://api.whatsapp.com/send?phone=5522999440789text=sua%20mensagem" target="blank"> <FaWhatsapp /></a>
               </SocialIcons>
  
-          <a href={curriculo} download="gabriela_salvo.pdf"><button>CV  em PDF</button></a>
+          <a href={curriculo} download="gabriela_salvo.pdf"><Button>CV  em PDF</Button></a>
           </Name>
           
         </Description>

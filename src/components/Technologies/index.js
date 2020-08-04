@@ -5,7 +5,7 @@ function Technologies() {
   return (
       <Container>
       <Wrapper>
-      <Text><p>Meus conhecimentos:</p></Text>
+      <Text><p>Meus conhecimentos</p></Text>
         <Description>
           <h2>FRONTEND</h2>
           <div> 
